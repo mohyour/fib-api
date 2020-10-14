@@ -14,11 +14,11 @@ next -> 1
 next -> 2
 previous -> 1
 ```
-More requirements (here)(https://gist.github.com/DuoVR/7febcd39aa0e1be2b18f44d163685e4b)
+More requirements [here](https://gist.github.com/DuoVR/7febcd39aa0e1be2b18f44d163685e4b)
 
 
 #### Starting
-- Install dependencies in go.mod file in the root directory with `go mod download`
+- Install dependencies in go.mod with `go mod download`
 - Create a `.env` file in the root directory as follow:
 ```
 SECRET=<your-deep-secret>
@@ -26,9 +26,9 @@ SECRET=<your-deep-secret>
 - Start the app with `go run main.go`
 
 #### Tests
-Run unit all tests with
-- `go test ./...` - all tests in project directory
-- `go test ./... -bench=.` - run all tests including benchmark tests
+Run unit tests with
+- `go test ./...` - all unit tests in project directory
+- `go test ./... -bench=.` - run all unit tests including benchmark tests
 - `go test <test-file>` - individual test file
 
 
